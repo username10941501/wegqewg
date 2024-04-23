@@ -1,0 +1,19 @@
+public class ImprecisionDemo
+
+{
+
+     public static void main(String[] args)
+
+     {
+
+        final double answer = 2.20 - 2.00;
+
+        boolean isEqual = answer == 0.20;
+
+        answer= answer +3.30;
+
+        System.out.println("isEqual is " + isEqual);
+
+     }
+
+}
